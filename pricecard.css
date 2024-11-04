@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+  }
+  
+  .main {
+    margin: 6% 0px 0px 23%;
+  }
+  
+  .top{ 
+    position: relative;
+    background-color: rgb(32, 28, 28);
+    padding: 20px;
+    width: 680px;
+    height: 120px;
+    line-height: 30px;
+    padding: 40px;
+  }
+  
+  .top h2{
+    color: white;
+  }
+  
+  .top h4{
+    color: green;
+  }
+  
+  .top p{
+    color: lightgrey;
+  }
+  
+  .left-side{
+    background-color: lightgrey;
+    width: 300px;
+    height: 130px;
+    margin: 0px 500px 0px 0px;
+    position: absolute;
+    line-height: 30px;
+    padding: 40px;
+  }
+  
+  .right-side {
+    background-color: grey;
+    float: right;
+    width: 300px;
+    height: 130px;
+    margin: 0px 0px 0px 380px;
+    position: absolute;
+    float: right;
+    padding: 40px;
+  }
+  
+  .bottom{
+    display: flex;
+  }
+  
+  .them {
+    display: flex;
+  }
+  
+  .them .pm {
+    margin-left: 5px;
+  }
+  
+  #btn {
+    background-color: green;
+    color: white;
+    border: none;
+    width: 215px;
+    padding: 5px;
+  }
+
+span{
+    color: green;
+}
+
+.made-by{
+    margin-top: 270px;
+    background-color: #f8f8f8; 
+    color: #333;             
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.9em;        
+    border-top: 1px solid #ddd;
+}
